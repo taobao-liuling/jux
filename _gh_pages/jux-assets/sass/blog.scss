@@ -16,11 +16,28 @@ body {
     z-index:1;
     position:relative;
     margin-bottom:60px;
+    background:rgba(0,0,0,1);    
+    
+    
+    .video {
+        opacity:0.5;
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        index:2;        
+        position:absolute;
+        
+        video {
+            width: 100%    !important;
+             height: auto   !important;
+        }
+    }
     
     .inner {
         width:940px;
         margin:0 auto;
         height:100%;
+        z-index:5;
         position:relative;
     }
     
@@ -180,13 +197,51 @@ body {
 
 
 .undertake {
-    height:150px;
+    height:120px;
+    
+    .inner {
+        width:940px;
+        margin:0 auto;
+    }
+    
+    .pagination {
+        width:180px;
+        margin:42.5px auto;
+        overflow:hidden;
+        font-family:"Helvetica Neue";   
+        
+        .btn {
+            background:#e1e1e1;
+            font-size:14px;
+            width:80px;
+            height:40px;
+            line-height:40px;
+            text-align:center;
+            color:#333;
+            text-decoration:none;            
+        }   
+        
+        .prev {
+            float:left;
+            @extend .btn;
+        }
+        
+        .next {
+            @extend .btn;            
+            float:right;
+        }
+    }
 }
 
 .footer {
     height:300px;
     background:#fff;
     position:relative;
+    
+    .inner {
+        width:940px;
+        margin:0 auto;        
+    }
     
     
     s {
@@ -203,7 +258,7 @@ body {
 
 
 .detail {
-    width:640px;
+    width:720px;
     margin:10px auto 30px auto;
     text-shadow: none;
     min-height:500px;
