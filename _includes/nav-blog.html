@@ -1,0 +1,11 @@
+<div class="header fixed">
+    <div class="inner">
+        <h1 class="logo"></h1>
+        <ul class="nav">
+            <li><a {% if page.slug == "blog" %} class="em"{% endif %} href="{{ page.base_url }}blog">BLOG</a></li>
+            <li><a {% if page.slug == "dpl" %} class="em"{% endif %} href="{{ page.base_url }}dpl">DPL</a></li>                                   <li><a {% if page.slug == "doc" %} class="em"{% endif %} href="{{ page.base_url }}doc">DOC</a></li>                 <li><a {% if page.slug == "wiki" %} class="em"{% endif %} href="{{ page.base_url }}wiki">WIKI</a></li>    
+        </ul>
+    </div>
+</div>
+
+
