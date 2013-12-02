@@ -1,0 +1,375 @@
+/* line 1, ../../sass/_site/github.scss */
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #eee;
+}
+
+/* line 8, ../../sass/_site/github.scss */
+.detail a {
+  color: #4183C4;
+}
+/* line 10, ../../sass/_site/github.scss */
+.detail a.absent {
+  color: #cc0000;
+}
+/* line 12, ../../sass/_site/github.scss */
+.detail a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+/* line 23, ../../sass/_site/github.scss */
+.detail h1, .detail h2, .detail h3, .detail h4, .detail h5, .detail h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+}
+/* line 31, ../../sass/_site/github.scss */
+.detail h1:hover a.anchor, .detail h2:hover a.anchor, .detail h3:hover a.anchor, .detail h4:hover a.anchor, .detail h5:hover a.anchor, .detail h6:hover a.anchor {
+  background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
+  text-decoration: none;
+}
+/* line 35, ../../sass/_site/github.scss */
+.detail h1 tt, .detail h1 code {
+  font-size: inherit;
+}
+/* line 38, ../../sass/_site/github.scss */
+.detail h2 tt, .detail h2 code {
+  font-size: inherit;
+}
+/* line 41, ../../sass/_site/github.scss */
+.detail h3 tt, .detail h3 code {
+  font-size: inherit;
+}
+/* line 44, ../../sass/_site/github.scss */
+.detail h4 tt, .detail h4 code {
+  font-size: inherit;
+}
+/* line 47, ../../sass/_site/github.scss */
+.detail h5 tt, .detail h5 code {
+  font-size: inherit;
+}
+/* line 50, ../../sass/_site/github.scss */
+.detail h6 tt, .detail h6 code {
+  font-size: inherit;
+}
+/* line 53, ../../sass/_site/github.scss */
+.detail h1 {
+  font-size: 28px;
+  color: black;
+}
+/* line 57, ../../sass/_site/github.scss */
+.detail h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black;
+}
+/* line 62, ../../sass/_site/github.scss */
+.detail h3 {
+  font-size: 18px;
+}
+/* line 65, ../../sass/_site/github.scss */
+.detail h4 {
+  font-size: 16px;
+}
+/* line 68, ../../sass/_site/github.scss */
+.detail h5 {
+  font-size: 14px;
+}
+/* line 71, ../../sass/_site/github.scss */
+.detail h6 {
+  color: #777777;
+  font-size: 14px;
+}
+/* line 75, ../../sass/_site/github.scss */
+.detail p, .detail blockquote, .detail ul, .detail ol, .detail dl, .detail li, .detail table, .detail pre {
+  margin: 15px 0;
+}
+/* line 78, ../../sass/_site/github.scss */
+.detail hr {
+  background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+/* line 85, ../../sass/_site/github.scss */
+.detail body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 88, ../../sass/_site/github.scss */
+.detail body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 91, ../../sass/_site/github.scss */
+.detail body > h1:first-child + h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 94, ../../sass/_site/github.scss */
+.detail body > h3:first-child, .detail body > h4:first-child, .detail body > h5:first-child, .detail body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 98, ../../sass/_site/github.scss */
+.detail a:first-child h1, .detail a:first-child h2, .detail a:first-child h3, .detail a:first-child h4, .detail a:first-child h5, .detail a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 102, ../../sass/_site/github.scss */
+.detail h1 p, .detail h2 p, .detail h3 p, .detail h4 p, .detail h5 p, .detail h6 p {
+  margin-top: 0;
+}
+/* line 105, ../../sass/_site/github.scss */
+.detail li p.first {
+  display: inline-block;
+}
+/* line 108, ../../sass/_site/github.scss */
+.detail ul, .detail ol {
+  padding-left: 30px;
+}
+/* line 111, ../../sass/_site/github.scss */
+.detail ul :first-child, .detail ol :first-child {
+  margin-top: 0;
+}
+/* line 114, ../../sass/_site/github.scss */
+.detail ul :last-child, .detail ol :last-child {
+  margin-bottom: 0;
+}
+/* line 117, ../../sass/_site/github.scss */
+.detail dl {
+  padding: 0;
+}
+/* line 119, ../../sass/_site/github.scss */
+.detail dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+/* line 125, ../../sass/_site/github.scss */
+.detail dl dt:first-child {
+  padding: 0;
+}
+/* line 127, ../../sass/_site/github.scss */
+.detail dl dt > :first-child {
+  margin-top: 0;
+}
+/* line 129, ../../sass/_site/github.scss */
+.detail dl dt > :last-child {
+  margin-bottom: 0;
+}
+/* line 131, ../../sass/_site/github.scss */
+.detail dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+/* line 134, ../../sass/_site/github.scss */
+.detail dl dd > :first-child {
+  margin-top: 0;
+}
+/* line 136, ../../sass/_site/github.scss */
+.detail dl dd > :last-child {
+  margin-bottom: 0;
+}
+/* line 139, ../../sass/_site/github.scss */
+.detail blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777;
+}
+/* line 143, ../../sass/_site/github.scss */
+.detail blockquote > :first-child {
+  margin-top: 0;
+}
+/* line 145, ../../sass/_site/github.scss */
+.detail blockquote > :last-child {
+  margin-bottom: 0;
+}
+/* line 148, ../../sass/_site/github.scss */
+.detail table {
+  padding: 0;
+  border-collapse: collapse;
+}
+/* line 152, ../../sass/_site/github.scss */
+.detail table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+/* line 157, ../../sass/_site/github.scss */
+.detail table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+/* line 159, ../../sass/_site/github.scss */
+.detail table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+/* line 165, ../../sass/_site/github.scss */
+.detail table tr td {
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+/* line 171, ../../sass/_site/github.scss */
+.detail table tr th :first-child, .detail table tr td :first-child {
+  margin-top: 0;
+}
+/* line 173, ../../sass/_site/github.scss */
+.detail table tr th :last-child, .detail table tr td :last-child {
+  margin-bottom: 0;
+}
+/* line 176, ../../sass/_site/github.scss */
+.detail img {
+  max-width: 100%;
+}
+/* line 179, ../../sass/_site/github.scss */
+.detail span.frame {
+  display: block;
+  overflow: hidden;
+}
+/* line 182, ../../sass/_site/github.scss */
+.detail span.frame > span {
+  border: 1px solid #dddddd;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 13px 0 0;
+  padding: 7px;
+  width: auto;
+}
+/* line 190, ../../sass/_site/github.scss */
+.detail span.frame span img {
+  display: block;
+  float: left;
+}
+/* line 193, ../../sass/_site/github.scss */
+.detail span.frame span span {
+  clear: both;
+  color: #333333;
+  display: block;
+  padding: 5px 0 0;
+}
+/* line 198, ../../sass/_site/github.scss */
+.detail span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+/* line 202, ../../sass/_site/github.scss */
+.detail span.align-center > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: center;
+}
+/* line 207, ../../sass/_site/github.scss */
+.detail span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 210, ../../sass/_site/github.scss */
+.detail span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+/* line 214, ../../sass/_site/github.scss */
+.detail span.align-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px 0 0;
+  text-align: right;
+}
+/* line 219, ../../sass/_site/github.scss */
+.detail span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+/* line 222, ../../sass/_site/github.scss */
+.detail span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left;
+}
+/* line 227, ../../sass/_site/github.scss */
+.detail span.float-left span {
+  margin: 13px 0 0;
+}
+/* line 229, ../../sass/_site/github.scss */
+.detail span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right;
+}
+/* line 234, ../../sass/_site/github.scss */
+.detail span.float-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: right;
+}
+/* line 240, ../../sass/_site/github.scss */
+.detail code, .detail tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+/* line 248, ../../sass/_site/github.scss */
+.detail pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+/* line 255, ../../sass/_site/github.scss */
+.detail .highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+/* line 264, ../../sass/_site/github.scss */
+.detail pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+/* line 272, ../../sass/_site/github.scss */
+.detail pre code, .detail pre tt {
+  background-color: transparent;
+  border: none;
+}
